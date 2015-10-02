@@ -8,20 +8,14 @@ public class MergeConflicts {
 	public MergeConflicts(){
 		name = "name";
 		bool = true;
-	}
+	}	
 
-	public MergeConflicts(String name, boolean bool){
-		this.name = name;
-		this.bool = bool;
-	}
-	
-	//added comment
 	public String getName(){
-		return "conflict";
+		return name;
 	}
 	
 	public boolean getBool(){
-		return true;
+		return bool;
 	}
 	
 	
