@@ -23,6 +23,8 @@ public class MergeConflicts {
 	public boolean getBool(){
 		return true;
 	}
+
+	public void getNothing(){}
 	
 	
 }
