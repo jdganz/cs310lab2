@@ -9,14 +9,19 @@ public class MergeConflicts {
 		name = "name";
 		bool = true;
 	}
+
+	public MergeConflicts(String name, boolean bool){
+		this.name = name;
+		this.bool = bool;
+	}
 	
-	
+	//added comment
 	public String getName(){
-		return this.name;
+		return "conflict";
 	}
 	
 	public boolean getBool(){
-		return this.bool;
+		return true;
 	}
 	
 	
