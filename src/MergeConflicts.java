@@ -3,11 +3,11 @@
 // beep boop diddly doop
 public class MergeConflicts {
 	private String name;
-	private boolean bool;
+	private boolean boo;
 	
 	public MergeConflicts(){
 		name = "name";
-		bool = true;
+		boo = true;
 	}	
 
 	public String getName(){
@@ -15,7 +15,7 @@ public class MergeConflicts {
 	}
 	
 	public boolean getBool(){
-		return bool;
+		return boo;
 	}
 	
 	
